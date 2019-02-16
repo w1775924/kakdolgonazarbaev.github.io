@@ -1,5 +1,6 @@
 body{
   background-image: radial-gradient(circle, #fec50c, #a3d043, #46cd82, #00c1b4, #00afca);
+  position: relative;
 }
 
 .countup {
@@ -65,5 +66,6 @@ h1{
 }
 
 .share-icons{
-  padding-top: 400px;
+  position: fixed;
+  top: 20px;
 }
