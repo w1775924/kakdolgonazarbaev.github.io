@@ -113,3 +113,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 }
+
+.social{
+  padding-bottom: 10px;
+}
