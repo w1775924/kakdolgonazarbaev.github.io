@@ -1,0 +1,65 @@
+body{
+  background-image: radial-gradient(circle, #fec50c, #a3d043, #46cd82, #00c1b4, #00afca);
+}
+
+.countup {
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+.countup .timeel {
+  display: block;
+  padding: 0px;
+  /* background: #fff; */
+  margin: 0;
+  color: #000;
+  min-width: 1rem;
+  margin-left: 6px;
+}
+.countup span[class*="timeRef"] {
+  margin-left: 0;
+  /* background: #fff; */
+  color: #000;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: #fff;
+  padding: 5px;
+  width: 160px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img{
+  width: 400px;
+  height: auto;
+}
+
+h1{
+  color: #000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
