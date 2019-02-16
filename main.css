@@ -1,7 +1,55 @@
 body{
   background-image: radial-gradient(circle, #fec50c, #a3d043, #46cd82, #00c1b4, #00afca);
-  position: relative;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding: auto;
+  min-height: 100vh;
 }
+
+/* --------------------------------------------------------------------------------------- */
+
+
+
+/* HEADER HEADER HEADER */
+
+header{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.img{
+  width: 400px;
+  height: auto;
+}
+
+/* HEADER HEADER HEADER */
+
+
+/* -------------------------------------------------------------------------------------- */
+
+/* HEADER DESCRIPTION */
+
+.description{
+  display: flex;
+  justify-content: space-around;
+}
+
+.description h1{
+  color: #000;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* HEADER DESCRIPTION */
+
+/* ------------------------------------------------------------------------------------ */
+
+/* COUNTER */
 
 .countup {
   text-align: center;
@@ -34,7 +82,6 @@ body{
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-  height: 400px;
 }
 
 .flex-item {
@@ -51,22 +98,15 @@ body{
   border-radius: 10px;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+/* COUNTER */
 
-.img{
-  width: 400px;
-  height: auto;
-}
 
-h1{
-  color: #000;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.share-icons{
+footer {
   position: fixed;
-  bottom: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2b211b;
+  color: white;
+  text-align: center;
 }
