@@ -65,6 +65,5 @@ h1{
 }
 
 .share-icons{
-  position: fixed;
-  bottm: 20px;
+  margin-top: 50px;
 }
